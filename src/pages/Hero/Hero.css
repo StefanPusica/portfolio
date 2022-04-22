@@ -1,0 +1,32 @@
+.hero {
+    width: 100%;
+    background-color: var(--dark-blue);
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-holder{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-left-side {
+    width: 50%;
+}
+
+.hero-right-side {
+    width: 50%;
+}
+
+@media screen and (max-width: 750px) {
+    .hero-left-side {
+        width: 100%;
+    }
+    
+    .hero-right-side {
+       display: none;
+    }
+}

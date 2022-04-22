@@ -1,0 +1,21 @@
+p {
+    color: rgba(255, 255, 255, 0.40);
+    max-width: 50rem;
+    font-size: 1.8rem;
+    line-height: 40px;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1200px) {
+    p {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    p {
+        font-size: 0.9rem;
+        line-height: 20px;
+    }
+}

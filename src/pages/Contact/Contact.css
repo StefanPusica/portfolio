@@ -1,0 +1,52 @@
+.contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.contact-holder {
+    width: 90%;
+}
+
+form {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+form input {
+    background-color: transparent;
+    outline: none;
+    padding: 1.5rem;
+    border: 2px solid #3C4E8C;
+    border-radius: 15px;
+    color: #fff;
+}
+
+form input:placeholder-shown {
+    color: #fff;
+}
+
+form input::placeholder {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 1rem;
+}
+
+form textarea {
+    background-color: transparent;
+    outline: none;
+    padding: 1.5rem;
+    border: 2px solid #3C4E8C;
+    border-radius: 15px;
+}
+
+form textarea:placeholder-shown {
+    color: #fff;
+}
+
+form textarea::placeholder {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 1rem;
+    font-weight: 300;
+}

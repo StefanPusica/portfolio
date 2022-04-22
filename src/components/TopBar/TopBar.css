@@ -1,0 +1,41 @@
+.top-bar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+    background-color: var(--dark-blue);
+}
+
+.top-bar-left {
+    display: flex;
+    gap: 1rem;
+}
+
+.top-bar-linkedin,
+.top-bar-github {
+    border-radius: 40%;
+    padding: 0.5rem;
+    transition: all 0.3s ease-in;
+}
+
+.top-bar-linkedin:hover,
+.top-bar-github:hover {
+    cursor: pointer;
+    background-color: #73788c;
+}
+
+.top-bar-icons {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.top-bar-right {
+    display: flex;
+    align-items: center;
+}
+
+.top-bar-right span {
+    color: #fff;
+    font-weight: 500;
+}

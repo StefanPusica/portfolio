@@ -1,13 +1,30 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+/* colors: {
+    primary1: hsl(204,23.8%,95.9%),
+    background1: "#0F1624",
+    accent1: "hsl(34.9,98.6%,72.9%)",
+    button: "hsl(205.1,100%,36.1%)",
+    background2: "hsl(232.7,27.3%,23.7%)"
+  } */
+
+:root {
+    --dark-blue: #0F1624;
+    --light-blue: #3C4E8C;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    background-color: var(--dark-blue);
+
+    /* vidi jel treba */
+    /* overflow-x: hidden; */
+}
+

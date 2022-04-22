@@ -1,0 +1,80 @@
+.skills {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.skills-holder {
+    width: 90%;
+}
+
+.about-skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.technologies-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.technologies {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.tech-heading {
+    margin-bottom: 1rem;
+}
+
+.tech-heading h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.tech-icon {
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.40);
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.tech-list {
+    list-style: none;
+}
+
+.tech-list-item {
+    margin-bottom: 0.5rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.40);
+}
+
+.resume-holder {
+    width: 40%;
+}
+
+@media screen and (max-width: 1000px) {
+    .about-skills {
+        flex-direction: column;
+    }
+
+    .resume-holder {
+        display: flex;
+        justify-content: start;
+        width: 100%;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .technologies-container {
+        flex-wrap: wrap;
+    }
+}

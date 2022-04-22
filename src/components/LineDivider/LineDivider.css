@@ -1,0 +1,19 @@
+.linedivider-first {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.line-divider-holder {
+  width: 90%;
+}
+
+.line-divider {
+  width: 6rem;
+  height: 0.6rem;
+  border-radius: 10px;
+  background-color: #fff;
+  background: linear-gradient(270deg, #13ADC7 0%, #945DD6 100%);
+  margin: 2rem 0 2rem 0rem;
+}
+
