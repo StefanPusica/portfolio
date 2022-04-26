@@ -5,9 +5,7 @@ import SectionTitle from '../../components/SectionTitle/SectionTitle'
 import { FaSortUp, FaTimes } from "react-icons/fa";
 import images from '../../constants/images'
 import ButtonMultyColor from '../../components/ButtonMultyColor/ButtonMultyColor';
-
-
-
+import ButtonVisitSite from '../../components/ButtonVisitSite/ButtonVisitSite';
 
 
 function Portfolio() {
@@ -16,6 +14,8 @@ function Portfolio() {
   // useEffect(() => {
   //   if (portfolioFlagItem.edit === true) {}
   // }, [portfolioFlagItem])
+
+  const {english} = useContext(PortfolioContext)
 
   return (
     <div className="portfolio" id='Portfolio'>
@@ -41,11 +41,13 @@ function Portfolio() {
                                         </div>
                                         <div className="portfolio-card-detalis-right-side">
                                             <h2 className='portfolio-card-title'>{portfolioFlagItem.itemReady.subject}</h2>
-                                            <p className='portfolio-card-text'>{portfolioFlagItem.itemReady.about}</p>
-                                            <h3 className='portfolio-card-technologies-title'>Technologies</h3>
+                                            <p className='portfolio-card-text'>{
+                                                english ? portfolioFlagItem.itemReady.aboutEng : portfolioFlagItem.itemReady.about
+                                            }</p>
+                                            <h3 className='portfolio-card-technologies-title'>{english ? 'Technologies' : 'Tehnologije'}</h3>
                                             <p className='technologies-list'>{portfolioFlagItem.itemReady.technologies}</p>
                                             <div className="portfolio-card-detalis-right-side-button">
-                                                <ButtonMultyColor buttonText={'Visit Site'} />
+                                                <ButtonVisitSite linkTo={portfolioFlagItem.itemReady.siteUrl} buttonText={english ? 'Visit Site' : 'Poseti Sajt'} />
                                             </div>
                                         </div>
                                         

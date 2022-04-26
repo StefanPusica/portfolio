@@ -9,16 +9,16 @@ import './Skills.css'
 import DownloadCv from './DownloadCV';
 
 function Skills() {
-
-    const {skills} = useContext(PortfolioContext)
+    
+    const {skills, english} = useContext(PortfolioContext)
 
   return (
     <div className='skills' id='Skills'>
         <div className="skills-holder">
-            <SectionTitle text='Skills' />
+            <SectionTitle text={english ? 'Skills' : 'Veštine'} />
             <div className="about-skills">
                 <div className="technologies">
-                    <SectionText text={'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book'} />
+                    <SectionText text= {english ? 'My previous learning chapter and working on projects is based on Front-End technologies. In addition, in the near future, I would like to take a peek into the world of Backend.' : 'Moja dosadašnja oblast učenja i rad na projektima bazira se na Front-End tehnologijama. Pored toga, u bliskoj budućnosti voleo bih voleo bih zaviriti i u svet Backenda.'} />
                     <div className="technologies-container">
                         {
                             skills.map(skill => (

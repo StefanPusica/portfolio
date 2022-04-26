@@ -39,14 +39,12 @@ form textarea {
     padding: 1.5rem;
     border: 2px solid #3C4E8C;
     border-radius: 15px;
-}
-
-form textarea:placeholder-shown {
     color: #fff;
 }
+
 
 form textarea::placeholder {
     color: rgba(255, 255, 255, 0.40);
     font-size: 1rem;
-    font-weight: 300;
+    /* font-weight: 300; */
 }
