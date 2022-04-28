@@ -1,10 +1,11 @@
-import React, { useState, useContext, useEffect } from 'react';
+import React, { useContext} from 'react';
 import PortfolioContext from '../../context/PortfolioContext'
 import './Portfolio.css'
 import SectionTitle from '../../components/SectionTitle/SectionTitle'
-import { FaSortUp, FaTimes } from "react-icons/fa";
-import images from '../../constants/images'
-import ButtonMultyColor from '../../components/ButtonMultyColor/ButtonMultyColor';
+import { FaTimes } from "react-icons/fa";
+import { HiX } from "react-icons/hi";
+// import images from '../../constants/images'
+// import ButtonMultyColor from '../../components/ButtonMultyColor/ButtonMultyColor';
 import ButtonVisitSite from '../../components/ButtonVisitSite/ButtonVisitSite';
 
 
@@ -52,7 +53,7 @@ function Portfolio() {
                                         </div>
                                         
                                         <div className="card-close">
-                                            <FaTimes fill='#D1DFED' size={'3rem'} className='card-close-icon' onClick={() => closeDetalis([])} />
+                                            <HiX fill='#D1DFED' size={'2rem'} className='card-close-icon' onClick={() => closeDetalis([])} />
                                         </div>
                                     </div>
                                     

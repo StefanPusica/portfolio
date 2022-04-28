@@ -7,10 +7,14 @@ function TopBar() {
     <div className='top-bar'>
         <div className="top-bar-left">
             <div className="top-bar-linkedin">
+              <a href='https://www.linkedin.com/in/stefan-pu%C5%A1ica-12841515b/?originalSubdomain=rs'>
                 <FaLinkedin className='top-bar-icons' />
+              </a>
             </div>
             <div className="top-bar-linkedin">
-              <FaGithub className='top-bar-icons' />
+              <a href='https://github.com/StefanPusica'>
+                <FaGithub className='top-bar-icons' />
+              </a>
             </div>
         </div>
         <div className="top-bar-right">

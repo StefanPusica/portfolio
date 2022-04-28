@@ -2,6 +2,7 @@ import { useState, useContext  } from 'react';
 import emailjs from  'emailjs-com'
 import SectionTitle from '../../components/SectionTitle/SectionTitle'
 import { toast } from 'react-toastify'
+import ButtonMultyColor from '../../components/ButtonMultyColor/ButtonMultyColor';
 
 import './Contact.css'
 import PortfolioContext from '../../context/PortfolioContext';
@@ -44,7 +45,7 @@ function Contact() {
                 <input type='email' name='email' placeholder={'Email'} required  />
                 <input type='text' name='subject' placeholder={english ? 'Subject' : 'Naslov'} required />
                 <textarea type='text' placeholder={english ? 'Message' : 'Tekst Poruke'} name='message' required />
-                <button type='submit' className='contact-button'>{english ? 'Send' : 'Pošalji'}</button>
+                <ButtonMultyColor buttonType={'submit'} buttonText={english ? 'Send' : 'Pošalji'} className='contact-button'></ButtonMultyColor>
             </form> 
         </div>
     </div>

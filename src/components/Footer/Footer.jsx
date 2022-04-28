@@ -17,8 +17,12 @@ function Footer() {
             </div>
             <div className="footer-second-row">
                 <p className="copy-text">© PusicaStefan 2022. {english ? 'All rights reserved' : 'Sva prava zadržana' }</p>
-                <FaLinkedin className='top-bar-icons' />
-                <FaGithub className='top-bar-icons' />
+                <a href='https://www.linkedin.com/in/stefan-pu%C5%A1ica-12841515b/'>
+                  <FaLinkedin className='top-bar-icons' />
+                </a>
+                <a href='https://github.com/StefanPusica'>
+                  <FaGithub className='top-bar-icons' />
+                </a>
             </div>
         </div>
     </div>

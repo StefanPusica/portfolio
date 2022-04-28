@@ -1,10 +1,10 @@
 import React, { useContext } from 'react';
 import './Hero.css'
-import Cookies from 'js-cookie'
+// import Cookies from 'js-cookie'
 import PortfolioContext from '../../context/PortfolioContext'
 import SectionTitle from '../../components/SectionTitle/SectionTitle'
 import SectionText from '../../components/SectionText/SectionText'
-import ButtonMultyColor from '../../components/ButtonMultyColor/ButtonMultyColor'
+import ButtonMultyColorHref from '../../components/ButtonMultiplyColorHref/ButtonMultiplyColorHref'
 import HeroAnimation from '../../components/HeroAnimation/HeroAnimation'
 
 function Hero() {
@@ -17,9 +17,9 @@ function Hero() {
     <div className="hero" id='Hero'>
         <div className="hero-holder">
             <div className="hero-left-side">
-                <SectionTitle text={english  ? 'Welcome!' : 'Dobro dosli!'} />
-                <SectionText text={english ? `My name is Stefan Pusica, I am 24 years old and I am from Belgrade. I'm doing with frontend development and design for the needs of the projects I have worked on.` : `Zovem se Stefan Pušica, imam 24 godine i iz Beograda sam. Bavim se Front-End developmentom i dizajnom za potrebe ličnih projekata`  } />
-                <ButtonMultyColor buttonText={english ? 'Detalis' : 'Detaljnije'} />
+                <SectionTitle text={english  ? 'Welcome!' : 'Dobro došli!'} />
+                <SectionText text={english ? `In addition to the acquired knowledge on High School my knowledge and skills i was improving with books and professional internet content. I am motivated to learn and improve my skills.` : `Pored znanja stečenog na Visokoj Školi svoja znanja i veštine unapređivao sam knjigama i stručnim internet sadržajem. Motivisan sam da steknem nove veštine i da svoje znanje stalno unapređujem`  } />
+                <ButtonMultyColorHref buttonHrefTo={'#Skills'} buttonText={english ? 'Detalis' : 'Detaljnije'} />
             </div>
             <div className="hero-right-side">
               <HeroAnimation className="heroAnimation" />

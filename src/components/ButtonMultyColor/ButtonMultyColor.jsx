@@ -1,8 +1,8 @@
 import './ButtonMultyColor.css'
 
-function ButtonMultyColor({buttonText}) {
+function ButtonMultyColor({buttonText, buttonType}) {
   return (
-    <button>{buttonText}</button>
+    <button type={buttonType}>{buttonText}</button>
   )
 }
 
