@@ -62,6 +62,8 @@ export const PortfolioProvider = ({children}) => {
                 'HTML',
                 'CSS',
                 'Sass',
+                'Bootstrap',
+                'Tailwind',
                 'JavaScript',
                 'React'
             ]  
@@ -70,8 +72,7 @@ export const PortfolioProvider = ({children}) => {
             techIcon: faDatabase,
             techSubject: 'Database',
             techSkills: [
-                'Firebase',
-                'MongoDB'
+                'Firebase'
             ]  
         },
         {

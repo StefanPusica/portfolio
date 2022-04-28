@@ -2,7 +2,7 @@ import './ButtonMultyColor.css'
 
 function ButtonMultyColor({buttonText, buttonType}) {
   return (
-    <button type={buttonType}>{buttonText}</button>
+    <button className='ButtonMultyColor' type={buttonType}>{buttonText}</button>
   )
 }
 
