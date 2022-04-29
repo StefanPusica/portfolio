@@ -66,7 +66,10 @@ export const PortfolioProvider = ({children}) => {
                 'Bootstrap',
                 'Tailwind',
                 'JavaScript',
-                'React'
+                'React',
+                'Wordpress',
+                'Woocommerce',
+                'Elementor'
             ]  
         },
         {
