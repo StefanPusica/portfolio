@@ -57,7 +57,8 @@ export const PortfolioProvider = ({children}) => {
     const [skills, setSkills] = useState([
         {
             techIcon: brandIcons.faReact,
-            techSubject: 'Front-End',
+            techSubject: 'Frontend',
+            techSubjectSR: 'Frontend',
             techSkills: [
                 'HTML',
                 'CSS',
@@ -71,6 +72,7 @@ export const PortfolioProvider = ({children}) => {
         {
             techIcon: faDatabase,
             techSubject: 'Database',
+            techSubjectSR: 'Baza Podataka',
             techSkills: [
                 'Firebase'
             ]  
@@ -78,6 +80,7 @@ export const PortfolioProvider = ({children}) => {
         {
             techIcon: faPalette,
             techSubject: 'Design',
+            techSubjectSR: 'Dizajn',
             techSkills: [
                 'Photoshop',
                 'Figma',

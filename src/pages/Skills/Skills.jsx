@@ -18,7 +18,7 @@ function Skills() {
             <SectionTitle text={english ? 'Skills' : 'Veštine'} />
             <div className="about-skills">
                 <div className="technologies">
-                    <SectionText text= {english ? 'My previous learning chapter and working on projects is based on Front-End technologies. In addition, in the near future, I would like to take a peek into the world of Backend.' : 'Moja dosadašnja oblast učenja i rad na projektima bazira se na Front-End tehnologijama. Pored toga, u bliskoj budućnosti voleo bih voleo bih zaviriti i u svet Backenda.'} />
+                    <SectionText text= {english ? 'My previous learning chapter and working on projects is based on Frontend technologies. In addition, in the near future, I would like to take a peek into the world of Backend.' : 'Moja dosadašnja oblast učenja i rad na projektima bazira se na Frontend tehnologijama. Pored toga, u bliskoj budućnosti voleo bih zaviriti i u svet Backenda.'} />
                     <div className="technologies-container">
                         {
                             skills.map(skill => (
@@ -28,7 +28,7 @@ function Skills() {
                                         icon={skill.techIcon}
                                         className='tech-icon'
                                     />
-                                        <h2>{skill.techSubject}</h2>
+                                        <h2>{ english ? skill.techSubject : skill.techSubjectSR}</h2>
                                     </div>    
                                     <ul className='tech-list'>
                                         {

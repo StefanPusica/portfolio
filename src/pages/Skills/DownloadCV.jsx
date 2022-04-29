@@ -1,6 +1,6 @@
 import React, { Component, useContext } from 'react';
 import PortfolioContext from '../../context/PortfolioContext';
-import pdf from '../../assets/cv/CV.pdf';
+import pdf from '../../assets/cv/PusicaStefan.pdf';
 import { FaFileDownload } from "react-icons/fa";
 
 import './DownloadCV.css'

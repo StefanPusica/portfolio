@@ -18,7 +18,7 @@ function Hero() {
         <div className="hero-holder">
             <div className="hero-left-side">
                 <SectionTitle text={english  ? 'Welcome!' : 'Dobro došli!'} />
-                <SectionText text={english ? `In addition to the acquired knowledge on High School my knowledge and skills i was improving with books and professional internet content. I am motivated to learn and improve my skills.` : `Pored znanja stečenog na Visokoj Školi svoja znanja i veštine unapređivao sam knjigama i stručnim internet sadržajem. Motivisan sam da steknem nove veštine i da svoje znanje stalno unapređujem`  } />
+                <SectionText text={english ? `In addition to the acquired faculty education I was improving my knowledge and skills  with books and professional internet content. I am motivated to learn and improve my skills` : `Pored stečenog fakultetskog obrazovanja usavršavao sam svoja znanja i veštine uz pomoć knjiga i stručnih internet sadržaja. Motivisan sam da učim i unapređujem svoje veštine`  } />
                 <ButtonMultyColorHref buttonHrefTo={'#Skills'} buttonText={english ? 'Detalis' : 'Detaljnije'} />
             </div>
             <div className="hero-right-side">
