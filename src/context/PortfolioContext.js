@@ -74,6 +74,7 @@ export const PortfolioProvider = ({ children }) => {
         "Bootstrap",
         "Tailwind",
         "JavaScript",
+        "Backbone JS",
         "React",
         "Wordpress",
         "Woocommerce",
