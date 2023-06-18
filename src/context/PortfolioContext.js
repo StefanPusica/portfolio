@@ -47,19 +47,19 @@ export const PortfolioProvider = ({ children }) => {
       siteUrl: "https://marascoast.com/",
       showCardDetalis: false,
     },
-    {
-      id: 4,
-      logo: `${images.tbeautyLogo}`,
-      subject: "TBeauty",
-      aboutEng:
-        "Multipage web site for a beauty salon which is not fully completed. Technologies used HTML, CSS, JavaScript.",
-      about:
-        "Višestranični prezentacioni sajt salona lepote koji nije u potpunosti završen. Rađen je po ugledu lično kreirani dizajn u tehnologijama HTML, CSS i JavaScript.",
-      technologies: "HTML, CSS, JavaScript",
-      mockup: `${images.TbeautyMockup}`,
-      siteUrl: "https://tbeauty.netlify.app/",
-      showCardDetalis: false,
-    },
+    // {
+    //   id: 4,
+    //   logo: `${images.tbeautyLogo}`,
+    //   subject: "TBeauty",
+    //   aboutEng:
+    //     "Multipage web site for a beauty salon which is not fully completed. Technologies used HTML, CSS, JavaScript.",
+    //   about:
+    //     "Višestranični prezentacioni sajt salona lepote koji nije u potpunosti završen. Rađen je po ugledu lično kreirani dizajn u tehnologijama HTML, CSS i JavaScript.",
+    //   technologies: "HTML, CSS, JavaScript",
+    //   mockup: `${images.TbeautyMockup}`,
+    //   siteUrl: "https://tbeauty.netlify.app/",
+    //   showCardDetalis: false,
+    // },
   ]);
 
   const [skills, setSkills] = useState([

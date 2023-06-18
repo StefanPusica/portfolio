@@ -20,8 +20,8 @@ function Hero() {
           <SectionText
             text={
               english
-                ? `I am a seasoned web application developer with over a year of industry experience. Currently, I am employed at MTS sistemi i integracije, where I am involved in the development of one of the most popular OTT(Over-the-top media service) applications in the Balkans.`
-                : `Iskusan sam programer web aplikacija s više od godinu dana radnog iskustva. Trenutno sam zaposlen u MTS sistemi i integracije, gde radim na razvoju jedne od najpopularnijih OTT(Over-the-top media service) aplikacija na Balkanu.`
+                ? `I am web developer with over a year of industry experience. Currently, I am employed at MTS sistemi i integracije, where I am involved in the development of one of the most popular OTT(Over-the-top media service) applications in the Balkans.`
+                : `Programer sa više od godinu dana radnog iskustva. Trenutno sam zaposlen u MTS sistemi i integracije, gde radim na razvoju jedne od najpopularnijih OTT(Over-the-top media service) aplikacija na Balkanu.`
             }
           />
           <ButtonMultyColorHref
