@@ -20,7 +20,7 @@ function Contact() {
   function sendEmail(e) {
     e.preventDefault();
 
-    emailjs.sendForm('service_ew411ef', 'template_a3aj4lm', e.target, 'uZbu_lErRf4nDiUmS')
+    emailjs.sendForm('service_fuea566', 'template_a3aj4lm', e.target, 'uZbu_lErRf4nDiUmS')
       .then((result) => {
           toast.success('Vaša poruka je uspešno poslata!')
           setName('')
@@ -29,6 +29,7 @@ function Contact() {
           setMessage('')
           
       }, (error) => {
+        console.log("error", error)
         toast.error('Došlo je do greške, molimo pokušajte ponovo')
       });
       e.target.reset()
