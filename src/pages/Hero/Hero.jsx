@@ -16,12 +16,12 @@ function Hero() {
     <div className="hero" id="Hero">
       <div className="hero-holder">
         <div className="hero-left-side">
-          <SectionTitle text={english ? "Welcome!" : "Dobro došli!"} />
+          {/* <SectionTitle text={english ? "Welcome!" : "Dobro došli!"} /> */}
           <SectionText
             text={
               english
-                ? `I am web developer with over a year of industry experience. Currently, I am employed at MTS sistemi i integracije, where I am involved in the development of one of the most popular OTT(Over-the-top media service) applications in the Balkans.`
-                : `Programer sa više od godinu dana radnog iskustva. Trenutno sam zaposlen u MTS sistemi i integracije, gde radim na razvoju jedne od najpopularnijih OTT(Over-the-top media service) aplikacija na Balkanu.`
+                ? ` I'm Stefan Pušica, a frontend developer with 2 years of specialized experience in OTT applications and web development. I’m specialized about building user-friendly and engaging digital solutions. Let's work together to turn your ideas into reality.`
+                : `Zovem se Stefan Pušica, frontend programer sa 2 godine iskustva u razvoju OTT aplikacija i web razvoja. Specijalizovan sam za kreiranje korisnički prijatnih i privlačnih digitalnih rešenja. Hajde da zajedno pretvorimo vaše ideje u stvarnost.`
             }
           />
           <ButtonMultyColorHref

@@ -10,6 +10,19 @@ export const PortfolioProvider = ({ children }) => {
   const [portfolioItems, setPortfolioItems] = useState([
     {
       id: 1,
+      logo: `${images.mtsSiLogo}`,
+      subject: "mts sistemi i integracije",
+      aboutEng:
+        "Custom WordPress theme. This project involves creating a responsive, user-friendly design with a focus on performance, SEO optimization, and seamless integration of required functionalities. The theme will reflect the brand's identity, ensuring a consistent and engaging user experience across all devices.",
+      about:
+        "Custom WordPress tema. Ovaj projekat uključuje kreiranje responzivnog, korisnički prijateljskog dizajna sa fokusom na performanse, SEO optimizaciju i besprekornu integraciju potrebnih funkcionalnosti. Tema odražava identitet brenda, osiguravajući dosledno i angažujuće korisničko iskustvo na svim uređajima.",
+      technologies: "HTML, CSS, JavaScript, PHP",
+      mockup: `${images.MtsSiMocup}`,
+      siteUrl: "https://mts-si.rs",
+      showCardDetalis: false,
+    },
+    {
+      id: 2,
       logo: `${images.brakumLogo}`,
       subject: "Brakum",
       aboutEng:
@@ -22,7 +35,7 @@ export const PortfolioProvider = ({ children }) => {
       showCardDetalis: false,
     },
     {
-      id: 2,
+      id: 3,
       logo: `${images.cottoLogo}`,
       subject: "Cotto",
       aboutEng:
@@ -35,7 +48,7 @@ export const PortfolioProvider = ({ children }) => {
       showCardDetalis: false,
     },
     {
-      id: 3,
+      id: 4,
       logo: `${images.marasCoastLogo}`,
       subject: "Maras Coast",
       aboutEng:
@@ -48,7 +61,7 @@ export const PortfolioProvider = ({ children }) => {
       showCardDetalis: false,
     },
     // {
-    //   id: 4,
+    //   id: 5,
     //   logo: `${images.tbeautyLogo}`,
     //   subject: "TBeauty",
     //   aboutEng:
@@ -74,12 +87,23 @@ export const PortfolioProvider = ({ children }) => {
         "Bootstrap",
         "Tailwind",
         "JavaScript",
-        "Backbone JS",
-        "React",
-        "Wordpress",
-        "Woocommerce",
-        "Elementor",
       ],
+      
+    },
+    {
+      // techIcon: brandIcons.faReact,
+      // techSubject: "Frontend",
+      // techSubjectSR: "Frontend",
+      extraClassName: "extra",
+      techSkills: [
+        "Brightscript",
+        "Backbone js",
+        "React",
+        "Lightning js",
+        "Wordpress",
+        "Woocommerce"
+      ],
+      
     },
     {
       techIcon: faDatabase,

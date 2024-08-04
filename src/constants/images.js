@@ -6,6 +6,10 @@ import BrakumMockup from '../assets/portfolio_company_logos/BrakumMockup.png'
 import CottoMockup from '../assets/portfolio_company_logos/CottoMockup.png'
 import MarasMockup from '../assets/portfolio_company_logos/MarasMockup.png'
 import TbeautyMockup from '../assets/portfolio_company_logos/TbeautyMockup.png'
+import MtsSiMocup from '../assets/portfolio_company_logos/mtsSiMocup.png'
+import moveLogo from '../assets/images/moveLogo.png'
+import movePlatfrom from '../assets/images/movePlatfrom.png'
+import mtsSiLogo from '../assets/portfolio_company_logos/mtsSiLogo.png'
 
 
 export default {
@@ -16,5 +20,9 @@ export default {
     CottoMockup,
     MarasMockup,
     TbeautyMockup,
-    tbeautyLogo
+    tbeautyLogo,
+    moveLogo,
+    movePlatfrom,
+    mtsSiLogo,
+    MtsSiMocup
 }

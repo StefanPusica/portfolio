@@ -50,6 +50,10 @@
     list-style: none;
 }
 
+.tech-list.extra {
+   margin-top: 6rem;
+}
+
 .tech-list-item {
     margin-bottom: 0.5rem;
     font-weight: 300;

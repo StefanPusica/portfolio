@@ -9,11 +9,14 @@
 .portfolio-projects {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 5rem;
 
     -webkit-transition: all 0.2s ease-in;
     -moz-transition: all 0.2s ease-in;
     -o-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
+
+    
 }
 
 .portfolio-projects-holder {
@@ -46,6 +49,25 @@
 }
 
 .portfolio-card img {
+    width: 100%;
+}
+
+.portfolio-ott {
+    /* margin-top: 2rem; */
+    display: flex;
+    align-items: center;
+}
+
+.portfolio-ott-left,
+.portfolio-ott-right {
+    width: 50%;
+}
+
+.portfolio-ott-left img {
+    margin-bottom: 2rem;
+}
+
+.portfolio-ott-right img {
     width: 100%;
 }
 
@@ -151,6 +173,19 @@
         height: 20rem;
     } */
 
+    .portfolio-ott {
+        flex-direction: column;
+    }
+
+    .portfolio-ott-left,
+    .portfolio-ott-right {
+        width: 100%;
+    }
+
+    .portfolio-ott-left img {
+        width: 30%;
+    }
+
     .portfolio-card {
         width: 10rem;
         height: 10rem;
@@ -182,6 +217,10 @@
         padding: 0.5rem;
         width: 7rem;
         height: 7rem;
+    }
+
+    .portfolio-ott-left img {
+        width: 50%;
     }
 }
 
